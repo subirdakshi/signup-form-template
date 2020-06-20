@@ -38,9 +38,7 @@ body::before{
   align-items: center;
   grid-gap:50px;
 }
-.left,.right{
-  height: auto;
-}
+
 
 .left h1{
   width: 80%;
@@ -69,7 +67,6 @@ body::before{
 .right .panel strong{
   font-weight: 700;
 }
-
 .right form{
   width: 100%;
   margin-top: 25px;
@@ -138,7 +135,7 @@ body::before{
   .left h1{
     width: 100%;
     font-size: 35px;
-  }  
+  }
 }
 
 
@@ -159,7 +156,7 @@ body::before{
     font-weight: 500;
   }
   .right .panel{
-    padding:20px 50px; 
+    padding:20px 50px;
   }
   .right .panel strong{
     font-weight: 600;
@@ -191,4 +188,3 @@ body::before{
     font-size: 11px;
   }
 }
-
