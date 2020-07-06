@@ -105,6 +105,9 @@ body::before{
 .right .btn-lg:hover{
   cursor: pointer;
 }
+.right .form-control:focus , .right .btn-lg:focus{
+  outline: none;
+}
 .right .small{
   color:var(--form-input-border);
   font-size: 12px;
