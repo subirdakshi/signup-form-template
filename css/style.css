@@ -88,6 +88,7 @@ body::before{
 .right .form-control:focus{
   border:1px solid var(--form-input-active);
   -webkit-border:1px solid var(--form-input-active);
+  outline:none;
 }
 .right .btn-lg{
   background: var(--button-background);
@@ -105,7 +106,7 @@ body::before{
 .right .btn-lg:hover{
   cursor: pointer;
 }
-.right .form-control:focus , .right .btn-lg:focus{
+.right .btn-lg:focus{
   outline: none;
 }
 .right .small{
