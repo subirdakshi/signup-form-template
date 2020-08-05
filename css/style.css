@@ -54,7 +54,9 @@ body::before{
   padding-top: 25px;
 }
 
-
+.right{
+  margin: 20px 0;
+}
 .right .panel{
   background: var(--panel-background);
   width: 100%;
@@ -76,7 +78,8 @@ body::before{
   box-shadow: 0px 8px 0px rgba(62,60,73,0.3);
 }
 .right .form-group{
-  padding-bottom: 20px;
+  padding-bottom: 25px;
+  position: relative;
 }
 .right .form-control{
   width: 100%;
@@ -102,12 +105,16 @@ body::before{
   font-size: 18px;
   letter-spacing: 1px;
   box-shadow: 0px 3px 0px rgba(62,60,73,0.5);
+  transition: 0.2ms transform ease ;
 }
 .right .btn-lg:hover{
   cursor: pointer;
 }
 .right .btn-lg:focus{
   outline: none;
+}
+.right .btn-lg:active{
+  transform: scale(0.99);
 }
 .right .small{
   color:var(--form-input-border);
@@ -119,6 +126,21 @@ body::before{
   color: rgba(62,60,73,0.5);
   font-weight: 700;
   font-size: 12px;
+}
+.right .err_img{
+  position: absolute;
+  top: 12px;
+  right: 30px;
+  display: none;
+}
+.right .err_msg{
+  position: relative;
+  top: 5px;
+  text-align: right;
+  font-style: oblique;
+  color: red;
+  font-size: 13px;
+  display: none;
 }
 
 
